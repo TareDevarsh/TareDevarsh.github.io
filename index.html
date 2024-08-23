@@ -35,6 +35,7 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/formHandler.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -170,7 +171,7 @@
 								</div>
 								<div class="timeline-body">
 									<p> 
-										Engineered a low solar-powered water pump prototype for small-scale farm irrigation, integrating PV panels, automated controls. Concurrently led community outreach initiatives, distributing essential educational materials and clothing to rural areas for technological advancement and social impact. 
+										Engineered a low cost solar-powered water pump prototype for small-scale farm irrigation, integrating PV panels, automated controls. Concurrently led community outreach initiatives, distributing essential educational materials and clothing to rural areas for technological advancement and social impact. 
 									</p>
 								</div>
 							</div>
@@ -582,8 +583,10 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Hire Me!</h2>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-					<p><a href="#" class="btn btn-default btn-lg">Contact Us</a></p>
+					<p>
+						Elevate Your Brand with Innovative Advertising Solutions: Harnessing Machine Learning and a Human-Centric Approach for Unmatched Engagement.
+					</p>
+					<p><a href="#fh5co-consult" class="btn btn-default btn-lg">Contact Us</a></p>
 				</div>
 			</div>
 		</div>
@@ -595,7 +598,7 @@
 		</div>
 		<div class="choose animate-box">
 			<h2>Contact</h2>
-			<form action="#">
+			<form id="contactForm" action="#" onsubmit="event.preventDefault(); saveFormData();">
 				<div class="row form-group">
 					<div class="col-md-6">
 						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
@@ -632,14 +635,14 @@
 		</div>
 	</div>
 
-	<div id="map" class="fh5co-map"></div>
+	<div style="display:none;" id="map" class="fh5co-map"></div>
 	</div>
 	
 	<div id="fh5co-footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<p>&copy; 2017 Free HTML5 Template. All Rights Reserved. <br>Designed by <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com" target="_blank">Unsplash</a></p>
+					<p>&copy; 2024 Devarsh Tare. All Rights Reserved.</p>
 				</div>
 			</div>
 		</div>
